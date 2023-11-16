@@ -53,7 +53,7 @@ uninstall service
 
 ## Experience
 
-The income is relatively low, mainly depends on the type of IP. If it is home bandwidth, the income will be the highest, and if it is the data center, the income will be the lowest.
+The platform does not allow data center traffic, so it can only be shared using home bandwidth or similar.
 
 ## Disclaimer
 
