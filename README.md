@@ -8,7 +8,7 @@
 
 The earnfm is an option that allows users to earn money by sharing your traffic.
 
-You'll receive $0.30 for the 1G traffic you share.
+You'll receive $0.30 for the 1G traffic you share, and this script only supports home bandwidth.
 
 It has below features:
 
