@@ -8,6 +8,8 @@
 
 The earnfm is an option that allows users to earn money by sharing your traffic.
 
+You'll receive $0.30 for the 1G traffic you share, and this script supports data center network or home bandwidth.
+
 It has below features:
 
 1. Automatically install docker based on the system, and if docker are already installed, it will not installed again.
