@@ -107,7 +107,7 @@ container_build(){
 
   # 创建容器
   yellow " Create the earnfm container.\n "
-  docker run -d --restart=always -e EARNFM_TOKEN="$API_Key" --name earnfm-client earnfm/earnfm-client:latest
+  docker run --log-opt max-size=10m -d --restart=always -e EARNFM_TOKEN="$API_Key" --name earnfm-client earnfm/earnfm-client:latest
 
   # 创建 Towerwatch
   [[ ! $(docker ps -a) =~ watchtower ]] && yellow " Create TowerWatch.\n " && docker run -d --name watchtower --restart always -p 2095:8080 -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --cleanup >/dev/null 2>&1
